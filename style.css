@@ -7,7 +7,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(bg3.png);
+    background-image: url(hotel-de-ville-de-ndom-inauguré-en-2013.jpg);
     background-position: center;
     background-size: cover;
     padding: 0 8%;
@@ -16,7 +16,7 @@
 .logo {
     padding: 20px 0;
     cursor: pointer;
-    color: white;
+    color: #333;
     font-size: 20px;
     font-weight: 600;
 }
@@ -24,7 +24,7 @@
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
-    color: #fff;
+    color: #333;
 }
 .content p {
     font-size: 20px;
@@ -34,6 +34,9 @@
     font-size: 64px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.content h3 {
+    color: white;
 }
 .content h1 span {
     color: orange;
@@ -72,6 +75,7 @@
 .launch-time div span {
     font-size: 16px;
     font-weight: 600;
+    color: white;
 }
 .rocket {
     width: 250px;
